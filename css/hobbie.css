@@ -1,0 +1,177 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.counter{
+    width: 40%;
+    margin: 30px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown{
+    width: 10%;
+    min-width: 70px;
+    position: relative;
+}
+
+.boton{
+    display: flex;
+    background-color: antiquewhite;
+    font-size: 30px;
+    padding: 5px;
+    border: solid 8px #293133;
+    border-radius: 8px;
+    color: #293133;
+    width: 100%;
+    min-width: 70px;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.nav{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+.nav a{
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .boton{
+    background-color: #FDDDCA;
+}
+
+.dropdown:hover .nav{
+    display: block;
+}
+
+
+.header .inicio{
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 5px;
+    display: inline;
+    border: solid 8px #293133;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #293133;
+}
+
+.header .inicio a{
+    text-decoration: none;
+    color: #293133;
+}
+
+.header .inicio a:visited{
+    color: #293133;
+}
+
+.header .inicio:hover{
+    background-color: #FDDDCA;
+}
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.caja{
+    width: 100%;
+    background-color: rgba(100, 140, 237, 0.5);
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.caja h1{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.caja .text{
+    width: 80%;
+    font-size: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.text p{
+    text-align: justify;
+}
+
+.caja img{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.caja .img{
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+}
+
+
+
+footer{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #293133;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: #293133;
+}
+
+footer a:hover{
+    color: #CC6666;
+}
+
+@media  (max-width: 1200px){
+    .counter{
+        width: 50%;
+    }
+}
+
+@media  (max-width: 1000px){
+    .counter{
+        width: 60%;
+    }
+}
+
+@media  (max-width: 800px){
+    .counter{
+        width: 80%;
+    }
+}
+
+@media  (max-width: 500px){
+    .counter{
+        width: 100%;
+    }
+}
